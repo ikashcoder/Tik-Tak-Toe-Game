@@ -1,0 +1,46 @@
+.game {
+  background-color: #E3A5C7;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns each taking equal space */
+  gap: 4px; /* Gap between grid items */
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  display: flex ;
+  flex-flow: column;
+  background-color: #E3A5C7 ;
+  text-align: center;
+  align-items: center;
+}
+
+body main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.box{
+  background-color: #B692C2;
+  font-size: 20px;
+  margin: 0%;
+  padding: 0%;
+  font-weight: bold;
+  color:#c72222 ;
+  width: 60px;
+  height: 60px;
+
+}
+
+#restart{
+  background-color: #694F8E;
+  border-radius: 1rem;
+  margin-top: 3rem;
+  width: 80px;
+  height: 30px;
+  color: #FF8225;
+}
